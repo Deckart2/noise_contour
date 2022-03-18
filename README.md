@@ -18,6 +18,8 @@ This repo captures the work I conducted as a Cook County Assessor's Office (CCAO
 
 ## Repo Contents
 
+`ohare_sound.Rmd` is the heart of this repo. It contains code to clean and compile the airport sound monitoring location dataset, preliminary data visualization, code to build and evaluate model surfaces, code to create more fine-grained model surfaces, and finally code to write those surfaces. 
+
 `input` is a folder containing datasets used to process the data. Some of them were pulled from CCAO's AWS S3 buckets where they store data in the cloud. 
 
 `output/kriging_demo` shows pdfs of kriging surfaces created.
@@ -25,5 +27,3 @@ This repo captures the work I conducted as a Cook County Assessor's Office (CCAO
 `airport_sound_report.Rmd` is a R Markdown file used to create a report summarizing this work. That report can also be found in the repo or via [this link](https://github.com/Deckart2/noise_contour/blob/main/airport_sound_report.pdf). 
 
 `create_midway_sound.R` is a short script that creates dataframe for noise monitoring stations surrounding Midway airport. 
-
-`ohare_sound.Rmd` is the heart of this repo. It contains code to clean and compile the airport sound monitoring location dataset, preliminary data visualization, code to build and evaluate model surfaces, code to create more fine-grained model surfaces, and finally code to write those surfaces. 
